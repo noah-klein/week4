@@ -1,0 +1,9 @@
+.page-header {
+  font-family: 'Arsenal', sans-serif;
+}
+.thumbnail {
+  font-family: 'Arsenal', sans-serif;
+}
+.thumbnail > img {
+  height: 100px;
+}
