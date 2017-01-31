@@ -32,11 +32,11 @@ window.getDeck = function() {
 $(function() {
   $(".deal").on("click", function(event) {
     event.preventDefault()
-    var poker = getDeck().shuffle()
-    $("#c1").attr("src", "http://golearntocode.com/images/cards/" + poker[0] + ".png")
-    $("#c2").attr("src", "http://golearntocode.com/images/cards/" + poker[1] + ".png")
-    $("#c3").attr("src", "http://golearntocode.com/images/cards/" + poker[2] + ".png")
-    $("#c4").attr("src", "http://golearntocode.com/images/cards/" + poker[3] + ".png")
-    $("#c5").attr("src", "http://golearntocode.com/images/cards/" + poker[4] + ".png")
+    var poker = window.getDeck().shuffle()
+    $("#c1").attr("src", "http://golearntocode.com/images/cards/" + poker[1] + ".png")
+    $("#c2").attr("src", "http://golearntocode.com/images/cards/" + poker[2] + ".png")
+    $("#c3").attr("src", "http://golearntocode.com/images/cards/" + poker[3] + ".png")
+    $("#c4").attr("src", "http://golearntocode.com/images/cards/" + poker[5] + ".png")
+    $("#c5").attr("src", "http://golearntocode.com/images/cards/" + poker[7] + ".png")
   });
 })
